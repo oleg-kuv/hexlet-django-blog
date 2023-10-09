@@ -8,6 +8,8 @@ articles = [
     {'title': 'Story telling', 'author': 'Valentin'},
     {'title': 'Photography', 'author': 'Valery'},
 ]
+
+
 def index(request):
     return render(request, 'article/index.html', context={
         'pagetitle': 'Articles',
